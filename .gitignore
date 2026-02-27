@@ -1,0 +1,76 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+venv/
+.python-version
+venv_311/
+# VS Code settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Environment variables
+.env
+!.env.example
+
+# Mypy / Pylint / Coverage / Testing
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# Jupyter
+.ipynb_checkpoints
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Local test reports
+test-results/
+
+# Docker
+*.pid
+*.db
+*.sqlite3
+
+# Optional - if using poetry
+poetry.lock
+__pypackages__/
+
+# Optional - if using pip-tools
+*.txt~  # backup files
+
+# Logs
+*.log
+logs/
+
+# If using FastAPI with static files/media
+/media/
+static/
+
+# Node stuff if you have frontend bundled (like React/Vite in the same repo)
+node_modules/
+
+enc.key
+storage/
+Dockerfile
+docker-compose.yml
